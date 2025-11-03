@@ -18,7 +18,7 @@ const Hero = () => {
       {/* HERO SECTION */}
       <section
         id="home"
-        className="relative py-20 sm:py-32 md:py-40 lg:py-48 text-center bg-cover bg-center"
+        className="relative py-20 sm:py-32 md:py-40 lg:py-20 text-center bg-cover bg-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)), url(${hero})`,
         }}
@@ -31,11 +31,11 @@ const Hero = () => {
             data-aos-duration="1200"
           >
             Let’s{" "}
-            <span className="bg-linear-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-900 to-blue-400 bg-clip-text text-transparent">
               Connect
             </span>{" "}
             & Build Something{" "}
-            <span className="bg-linear-to-r from-blue-400 to-pink-400 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-blue-400 to-blue-900 bg-clip-text text-transparent">
               Extraordinary
             </span>
           </h1>
@@ -61,7 +61,7 @@ const Hero = () => {
            <Link
            to="/freetrail"
            >
-            <button className="bg-linear-to-r from-pink-500 to-blue-500 text-white text-base sm:text-lg font-semibold px-6 sm:px-8 py-3 rounded-full shadow-lg hover:from-pink-600 hover:to-blue-600 transition duration-300 transform hover:scale-105 w-full sm:w-auto">
+            <button className="bg-linear-to-r from-blue-900 to-blue-500 text-white text-base sm:text-lg font-semibold px-5 sm:px-8 py-2 rounded-full shadow-lg hover:from-blue-900 hover:to-blue-600 transition duration-300 transform hover:scale-105 w-full sm:w-auto">
               Request a Free Trial
             </button>
            
@@ -69,7 +69,7 @@ const Hero = () => {
 
             {/* 🔵 Secondary Button */}
             <Link to="/programs">
-              <button className="border-2 border-white text-white text-base sm:text-lg font-semibold px-6 sm:px-8 py-3 rounded-full hover:bg-white hover:text-pink-600 transition duration-300 w-full sm:w-auto">
+              <button className="border-2 border-white text-white text-base sm:text-lg font-semibold px-5 sm:px-8 py-2 rounded-full hover:bg-white hover:text-blue-600 transition duration-300 w-full sm:w-auto">
                 Program Home
               </button>
             </Link>
@@ -85,7 +85,7 @@ const Hero = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
               viewBox="0 0 24 24"
-              className="w-5 h-5 text-pink-400"
+              className="w-5 h-5 text-blue-700"
             >
               <path d="M12 .587l3.668 7.429 8.2 1.192-5.934 5.782 1.4 8.169L12 18.896l-7.334 3.863 1.4-8.169L.132 9.208l8.2-1.192z" />
             </svg>
