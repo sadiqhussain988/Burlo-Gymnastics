@@ -4,10 +4,11 @@ import Navbar from './components/common/Navbar';
 import Footer from './components/common/Footer';
 import Home from './Pages/Home';
 import About from './Pages/About';
+import Programs from './Pages/Programs';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Facility from './components/Home/Facility';
-import Coaches from './components/Home/Coaches';
+import Coaches from './Pages/Coaches';
 
 const MainLayout = () => {
   return (
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
      children: [
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
+      { path: 'programs', element: <Programs /> },
       { path: 'services', element: <Services /> },
       { path: 'facilityt', element: <Facility /> },
       { path: 'coches', element: <Coaches /> },
