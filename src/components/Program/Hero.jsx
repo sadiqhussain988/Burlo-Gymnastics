@@ -1,10 +1,9 @@
-// src/pages/Programs.jsx
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FaChild, FaMedal, FaUserFriends } from "react-icons/fa"; // Kept these, but they aren't used in the snippet yet
 
-const Programs = () => {
+const Hero = () => {
   useEffect(() => {
     // Initialize AOS with a slight adjustment for a smoother feel
     AOS.init({ 
@@ -58,4 +57,4 @@ const Programs = () => {
   );
 };
 
-export default Programs;
+export default Hero;
