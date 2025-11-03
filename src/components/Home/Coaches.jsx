@@ -28,7 +28,7 @@ const Coaches = () => {
   return (
     <section
       id="coaches"
-      className="relative py-20 bg-gradient-to-b from-blue-50 via-purple-50 to-pink-50 overflow-hidden"
+      className="relative py-20 bg-linear-to-b from-blue-50 via-purple-50 to-pink-50 overflow-hidden"
     >
       {/* Soft decorative glows */}
       <div className="absolute inset-0 pointer-events-none">
@@ -67,7 +67,7 @@ const Coaches = () => {
                   alt={coach.name}
                   className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-700"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-black/40 via-black/10 to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-700"></div>
               </div>
 
               {/* Content */}

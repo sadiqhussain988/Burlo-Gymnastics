@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
-import faqImg from "../../assets/1.jpg"; // ✅ add your FAQ image here
+import faqImg from "../../assets/1.jpg";
 
 const faqs = [
   {
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "What should my child wear?",
-    a: "A leotard or fitted athletic wear is best. We’ll provide specific attire guidance during registration.",
+    a: "A leotard or fitted athletic wear is best. We'll provide specific attire guidance during registration.",
   },
 ];
 
@@ -38,18 +38,11 @@ const FAQ = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         {/* LEFT SIDE: FAQ */}
         <div>
-          <h2
-            data-aos="fade-up"
-            className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-6"
-          >
+          <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-6">
             Frequently Asked Questions
           </h2>
-          <p
-            data-aos="fade-up"
-            data-aos-delay="100"
-            className="text-gray-500 mb-10"
-          >
-            Got questions? We’ve got answers! Find everything you need to know
+          <p className="text-gray-500 mb-10">
+            Got questions? We've got answers! Find everything you need to know
             about our classes, age groups, and schedules below.
           </p>
 
@@ -57,9 +50,7 @@ const FAQ = () => {
             {faqs.map((item, i) => (
               <div
                 key={i}
-                data-aos="fade-up"
-                data-aos-delay={i * 100}
-                className={`rounded-2xl border border-blue-100 bg-white/70 backdrop-blur-md shadow-sm hover:shadow-md transition-all ${
+                className={`rounded-2xl border border-blue-100 bg-white/70 shadow-sm hover:shadow-md transition-all ${
                   openIndex === i ? "ring-2 ring-blue-300" : ""
                 }`}
               >
@@ -76,7 +67,7 @@ const FAQ = () => {
                 </button>
 
                 <div
-                  className={`overflow-hidden transition-all duration-500 px-6 ${
+                  className={`overflow-hidden transition-all duration-500 ease-in-out px-6 ${
                     openIndex === i ? "max-h-40 pb-4" : "max-h-0"
                   }`}
                 >
@@ -88,11 +79,7 @@ const FAQ = () => {
         </div>
 
         {/* RIGHT SIDE: IMAGE */}
-        <div
-          className="relative flex justify-center"
-          data-aos="zoom-in-left"
-          data-aos-delay="200"
-        >
+        <div className="relative flex justify-center">
           <div className="relative w-full max-w-md">
             <img
               src={faqImg}

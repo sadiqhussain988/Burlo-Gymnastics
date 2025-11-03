@@ -44,19 +44,19 @@ const Navbar = () => {
     {
       name: "About",
       path: "/about",
-      dropdown: [
-        { label: "Our Story", path: "/about/story" },
-        { label: "Mission & Values", path: "/about/mission" },
-      ],
+      // dropdown: [
+      //   { label: "Our Story", path: "/about/story" },
+      //   { label: "Mission & Values", path: "/about/mission" },
+      // ],
     },
     {
       name: "Programs",
       path: "/programs",
-      dropdown: [
-        { label: "Kids Classes", path: "/programs/kids" },
-        { label: "Competitive Teams", path: "/programs/teams" },
-        { label: "Adult Gymnastics", path: "/programs/adult" },
-      ],
+      // dropdown: [
+      //   { label: "Kids Classes", path: "/programs/kids" },
+      //   { label: "Competitive Teams", path: "/programs/teams" },
+      //   { label: "Adult Gymnastics", path: "/programs/adult" },
+      // ],
     },
     { name: "Services", path: "/services" },
     { name: "Coaches", path: "/coaches" },
@@ -148,7 +148,7 @@ const Navbar = () => {
               </div>
             ))}
             <Link
-              to="/contact"
+              to="/freetrail"
               className="ml-4 bg-blue-800  text-white px-6 py-2.5 rounded-full font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
             >
               Free Trial
@@ -220,7 +220,7 @@ const Navbar = () => {
 
             {/* CTA */}
             <Link
-              to="/contact"
+              to="/freetrail"
               className="mx-4 mt-4 block text-center bg-gradient-to-r from-[#FFD97A] to-[navy] hover:from-[#FFC857] hover:to-[#FFB347] text-gray-900 py-3 rounded-full font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all"
               onClick={() => setOpen(false)}
             >
