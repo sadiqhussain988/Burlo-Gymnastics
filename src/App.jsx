@@ -6,6 +6,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
+import Facility from './components/Home/Facility';
+import Coaches from './components/Home/Coaches';
 
 const MainLayout = () => {
   return (
@@ -25,6 +27,8 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: 'about', element: <About /> },
       { path: 'services', element: <Services /> },
+      { path: 'faci;lityt', element: <Facility /> },
+      { path: 'coches', element: <Coaches /> },
       { path: 'contact', element: <Contact /> },
      ],
   },
