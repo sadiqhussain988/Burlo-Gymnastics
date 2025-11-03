@@ -7,7 +7,7 @@ import About from './Pages/About';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Facility from './components/Home/Facility';
-import Coaches from './components/Home/Coaches';
+import Coaches from './Pages/Coaches';
 
 const MainLayout = () => {
   return (
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       { path: 'about', element: <About /> },
       { path: 'services', element: <Services /> },
       { path: 'faci;lityt', element: <Facility /> },
-      { path: 'coches', element: <Coaches /> },
+      { path: 'coaches', element: <Coaches /> },
       { path: 'contact', element: <Contact /> },
      ],
   },
