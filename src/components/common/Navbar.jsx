@@ -44,19 +44,19 @@ const Navbar = () => {
     {
       name: "About",
       path: "/about",
-      dropdown: [
-        { label: "Our Story", path: "/about/story" },
-        { label: "Mission & Values", path: "/about/mission" },
-      ],
+      // dropdown: [
+      //   { label: "Our Story", path: "/about/story" },
+      //   { label: "Mission & Values", path: "/about/mission" },
+      // ],
     },
     {
       name: "Programs",
       path: "/programs",
-      dropdown: [
-        { label: "Kids Classes", path: "/programs/kids" },
-        { label: "Competitive Teams", path: "/programs/teams" },
-        { label: "Adult Gymnastics", path: "/programs/adult" },
-      ],
+      // dropdown: [
+      //   { label: "Kids Classes", path: "/programs/kids" },
+      //   { label: "Competitive Teams", path: "/programs/teams" },
+      //   { label: "Adult Gymnastics", path: "/programs/adult" },
+      // ],
     },
     { name: "Services", path: "/services" },
     { name: "Coaches", path: "/coaches" },
