@@ -1,8 +1,15 @@
 import React from 'react'
+import Hero from '../components/contact/Hero'
+import Form from '../components/contact/Form'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div>
+
+
+      <Hero/>
+      <Form/>
+    </div>
   )
 }
 
