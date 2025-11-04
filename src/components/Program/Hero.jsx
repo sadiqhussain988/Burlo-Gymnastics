@@ -17,14 +17,14 @@ const Hero = () => {
 
   return (
     <div className="bg-white text-gray-800 overflow-hidden">
-      {/* HERO SECTION */}
+      {/* Hero SECTION */}
       <section
         className="relative py-20 sm:py-32 md:py-20 lg:py-25 text-center bg-cover bg-center flex items-center justify-center"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.65)), ${backgroundImage}`,
         }}
       >
-        {/* Floating gradient circles */}
+        {/* Floating gradient Circles */}
         <div className="absolute top-10 left-10 w-48 h-48 bg-[#6B429C]/40 rounded-full blur-3xl"></div>
         <div className="absolute bottom-10 right-10 w-64 h-64 bg-[#0677BA]/40 rounded-full blur-3xl"></div>
 
