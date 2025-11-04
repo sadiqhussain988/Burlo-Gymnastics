@@ -7,7 +7,9 @@ import About from './Pages/About';
 import Programs from './Pages/Programs';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
-import Coaches from './components/Home/Coaches';
+import Coaches from './Pages/Coaches';
+import FreeTrial from './Pages/FreeTrail';
+import Facility from './Pages/Facilite';
 
 const MainLayout = () => {
   return (
@@ -28,8 +30,8 @@ const router = createBrowserRouter([
       { path: 'about', element: <About /> },
       { path: 'programs', element: <Programs /> },
       { path: 'services', element: <Services /> },
-      { path: 'faci;lityt', element: <Facility /> },
-      { path: 'coches', element: <Coaches /> },
+      { path: 'facility', element: <Facility /> },
+      { path: 'coaches', element: <Coaches /> },
       { path: 'contact', element: <Contact /> },
       { path: 'freetrail', element: <FreeTrial /> },
      ],
