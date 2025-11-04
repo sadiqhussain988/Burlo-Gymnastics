@@ -23,7 +23,7 @@ const Form = () => {
       <div data-aos="fade-down" className="text-center mb-12 z-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800">
           Let’s <span className="text-[#468DE0]">Talk</span> About Your{" "}
-          <span className="text-pink-500">Next Project</span>
+          <span className="text-blue-500">Next Project</span>
         </h2>
         <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
           Have a question, proposal, or project idea? I’m here to collaborate
@@ -58,7 +58,7 @@ const Form = () => {
               data-aos-delay={i * 200}
               className="flex items-center gap-4 bg-white/80 border border-gray-200 shadow-md hover:shadow-lg rounded-2xl p-5 backdrop-blur-sm transition-all duration-300"
             >
-              <div className="p-3 bg-linear-to-r from-pink-400 to-blue-400 rounded-full text-white shadow">
+              <div className="p-3 bg-linear-to-r from-blue-500 to-blue-400 rounded-full text-white shadow">
                 {item.icon}
               </div>
               <div>
@@ -104,7 +104,7 @@ const Form = () => {
                 type="text"
                 name="name"
                 placeholder="Your Name"
-                className="w-full p-3 bg-white border border-gray-300 text-gray-700 placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400 transition-all duration-300"
+                className="w-full p-3 bg-white border border-gray-300 text-gray-700 placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300"
                 required
               />
               <input
@@ -119,7 +119,7 @@ const Form = () => {
               type="email"
               name="email"
               placeholder="Your Email"
-              className="w-full p-3 bg-white border border-gray-300 text-gray-700 placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400 transition-all duration-300"
+              className="w-full p-3 bg-white border border-gray-300 text-gray-700 placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-300"
               required
             />
 
@@ -134,14 +134,14 @@ const Form = () => {
               name="message"
               rows="5"
               placeholder="Your Message"
-              className="w-full p-3 bg-white border border-gray-300 text-gray-700 placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400 resize-none transition-all duration-300"
+              className="w-full p-3 bg-white border border-gray-300 text-gray-700 placeholder-gray-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 resize-none transition-all duration-300"
               required
             ></textarea>
           </div>
 
           <button
             type="submit"
-            className="mt-6 w-full py-3 rounded-lg bg-linear-to-r from-pink-400 to-blue-400 text-white font-semibold tracking-wide hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
+            className="mt-6 w-full py-3 rounded-lg bg-linear-to-r from-blue-400 to-blue-400 text-white font-semibold tracking-wide hover:shadow-lg hover:scale-[1.02] transition-all duration-300"
           >
             Send Message
           </button>
